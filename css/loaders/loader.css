@@ -54,7 +54,7 @@
 }
 
 .loader__logo {
-  width: 100px;
+  width: auto;
 }
 .loader__logo img {
   display: block;
