@@ -198,7 +198,7 @@ img {
 }
 
 .container-mobile {
-  padding: 0 3.4rem;
+  padding: 0 15px;
 }
 
 .container-desktop {
@@ -2022,6 +2022,13 @@ form input.margin-l, form textarea.margin-l {
   background-color: #0c0c0c;
   z-index: 1;
 }
+
+@media (max-width: 767px) {
+  .main {
+    padding-top: 0;
+  }  
+}
+
 .main::after {
   content: "";
   display: block;
@@ -2356,6 +2363,12 @@ form input.margin-l, form textarea.margin-l {
   position: relative;
   font: normal 600 1.4rem/1.6 "Poppins", sans-serif;
   line-height: 0.9;
+}
+@media (max-width: 767px) {
+  .socials {
+    display: block;
+    
+  }
 }
 .socials li {
   display: inline-block;
